@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <Button
+        android:id="@+id/simpleAlert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simple Alert" />
+
+    <Button
+        android:id="@+id/alertTwoButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Alert with two Button" />
+
+    <Button
+        android:id="@+id/alertThreeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Alert with three Button" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="Anko Library Example" />
+
+    <Button
+        android:id="@+id/ankoSimpleAlert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Simple Alert" />
+
+    <Button
+        android:id="@+id/ankoAlertTwoButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Alert with two Button" />
+
+    <Button
+        android:id="@+id/ankoAlertThreeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Alert with three Button" />
+</LinearLayout>
